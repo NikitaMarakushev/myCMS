@@ -1,0 +1,43 @@
+#profile_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80vw;
+}
+
+#profile_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.profile_content_p {
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	color: rgba(70, 70, 70, 1);
+	margin-top: 10px;
+
+}
+
+#profile_content div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial, sans-serif;
+	margin-top: 20px;
+}
+
+#profile_content div h2 {
+	font-size: 120%;
+}
+
+.goods_list_row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 90%;
+}
