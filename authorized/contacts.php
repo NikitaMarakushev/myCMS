@@ -7,7 +7,7 @@ include_once "page_content/navbar.php";
 ?>
 
 <section>
-	<h1>Контакты CMS для автоизланных юзеров</h1>
+	<h1>Контакты CMS для авторизованных пользователей</h1>
 </section>
 
 <?php
