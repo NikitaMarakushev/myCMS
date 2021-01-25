@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	color: rgb(105, 105, 105);
+	overflow-x: hidden;
+}
+
+*:focus, *:hover {
+	outline: none;
+}
+
+body section {
+	width: 100vw;
+	min-height: 100%;
+	background-color: rgba(200, 200, 200, 1.0);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body section h1 {
+	font-size: 150%;
+	font-family: Arial, sans-serif;
+	font-weight: 600;
+	color: rgba(70, 70, 70, 1);
+}

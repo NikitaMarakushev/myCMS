@@ -1,0 +1,44 @@
+#constacts_main{
+    height: 600px;
+    width: 80%;
+    border-radius: 2%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_main.cart {
+    display: inherit;
+}
+
+
+#contacts_header h1{
+    font-size: 40px;
+}
+
+.constacs_main.img img  {
+    width: 90px;
+    height: 90px;
+    border: 2px solid darkred;
+    margin: 20px 55px;
+}
+
+#map_section{
+    height: 500px;
+    background-color: #fff;
+    width: 80%;
+    margin: 90px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map_section:hover {
+    opacity: .2;
+}
+
+div#map_section div{
+    border-radius: 10%;
+    border: 1px solid darkslategrey;
+}
